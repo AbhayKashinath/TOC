@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/toc1"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.abhay.toc.MainActivity">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fontFamily="monospace"
+    android:textColor="@android:color/black"
+    android:text="THE OIL COLLECTIVE"
+    android:textStyle="bold"
+    android:textSize="24dp"
+    android:id="@+id/textView2" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:fontFamily="monospace"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="48dp"
+        android:layout_marginRight="77dp"
+        android:layout_marginEnd="77dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/toc2"
+        android:scaleType="centerCrop"
+        android:layout_below="@+id/textView3"
+        android:layout_alignRight="@+id/textview4"
+        android:layout_alignEnd="@+id/textview4"
+        android:layout_marginRight="14dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginTop="23dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview4"
+        android:text=" Visit us @ www.theoilcollective.in
+        \nCONTACT US @: info@theoilcollective.in
+        \nCALL US ON : +91 7353871190"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:textSize="15dp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:paddingTop="10dp"
+        android:layout_marginRight="63dp"
+        android:layout_marginEnd="63dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_alignEnd="@+id/textView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:text="The Oil Collective - a brand of cold press organic oils produced organic farmers locally."
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:textSize="15dp"
+        android:paddingTop="10dp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_marginRight="46dp"
+        android:layout_marginEnd="46dp"
+        android:layout_alignTop="@+id/textView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
